@@ -10,7 +10,7 @@ const ExerciseButton = ({ onClick, exercise, success = false }) => (
     disabled={success}
     onClick={onClick}
   >
-    {success ? <DoneIcon data-ex-success={exercise} /> : "Press to Test!"}
+    {success ? <DoneIcon data-ex-success={exercise} /> : "KOKEILE!"}
   </Button>
 );
 
